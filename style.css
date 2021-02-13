@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+main{
+    display: flex;
+    justify-content: center;    
+}
+
+fieldset{
+    border: none;
+}
+
+div{
+    padding: 0.8rem;
+}
+
+input{
+    border-radius: 0.3rem;
+    border-color: white;
+    width: 18rem;
+    height: 1.5rem;
+}
+
+#img{
+    background-color: rgb(0, 0, 0);
+    width: 30rem;
+}
+
+label{
+    font-size: 1.5rem;
+
+}
+
+h1{
+    text-align: center;
+}
+
+#confirmar{
+    background-color: darkgreen;
+    width: 8rem;
+}
