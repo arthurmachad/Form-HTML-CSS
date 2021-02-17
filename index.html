@@ -4,58 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Projeto</title>
 </head>
 
 <body>  
 
-    <header>
-
-    </header>
-
-
     <main>
-
-        <div id="img">
-            
+        
+        <div class="formulario2">
+            <img src="abastrato.png" alt="">
         </div>
+        <div class="formulario">
+            
+            <form autocomplete="on">    
 
-            <form autocomplete="on">        
                 <div>
                     <h1>Crie sua conta</h1> 
                 </div>
 
                 <fieldset>
-                    <div>
+                    <div class="espform">
                         <label for="nome">Nome</label><br>
                         <input type="name" id="nome" autofocus required>              
                     </div>
 
-                    <div>
+                    <div class="espform">
                         <label for="email">E-mail</label><br>
                         <input type="text" id="email" required>         
                     </div>
 
-                    <div>
+                    <div class="espform">
                         <label for="senha">Senha</label><br>
                         <input type="password" id="senha" required>         
                     </div>
 
-                    <div>
+                    <div class="espform">
                         <label for="confsenha">Confirmar Senha</label><br>
                         <input type="password" id="confsenha" required>
                     </div>
-
-                    <div>
-                        <label for="lembrar">Lembrar-me</label>
-                        <input type="checkbox" id="lembrar"><br>
-                    </div>
                     
-                    <input type="submit" value="Confirmar" id="confirmar" co>
-                </fieldset>
-            </form>
+                    <div>
+                        <label for="" id="termo">Ao clicar em Cadastre-se, você concorda com nossos Termos, <a href=""> Política de Dados e Política de Cookies</a>. Você poderá receber notificações por SMS  e cancelar isso quando quiser.</label><br>
+                        <input type="submit" value="Cadastre-se" id="cadastrese"><br>
+                    </div>    
 
+                </fieldset>
+
+            </form>
+        </div>
     </main>
 </body>
 
