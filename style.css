@@ -1,11 +1,12 @@
 html, body, main{
     height: 100%;
+    font-size: 20px;
 }
 
 body{
     margin: 0;
     padding: 0;
-    font-family: sans-serif ;
+    font-family: sans-serif, Arial, Helvetica;
     background-color: rgb(219, 219, 219);
 }
 
@@ -13,55 +14,84 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;  
+    font-size: 20px;
+    
 }
 
 form{
     background-color: white;
     padding: 4rem;
-    height: 51.5%;
     box-shadow: 5px 5px 5px 5px rgb(207, 207, 207);
 }
 
-fieldset, input{
+fieldset{
     border: none;
-    border-radius: 0.4rem;
+}
+
+fieldset, form, input, .imgform img, #btnlogin{
+    border-radius: 1rem;
+}
+
+input, #btnlogin{
+    height: 1.8rem;
+    border: 2px solid rgb(231, 231, 231);
+}
+
+input, #btnlogin{
+    width: 15rem;
 }
 
 input{
-    width: 15rem;
-    height: 1.5rem;
-    border: 1px solid rgb(231, 231, 231);
+    margin-top: 0.5rem;
 }
 
-h1, #cadastrese {
-    text-align: center;
+a{
+    color: gray;
+}
+
+.imgform img{
+    height: 34rem;
+    width: 30rem;
+    opacity: 50%;
+    box-shadow: 0px 10px 10px 0px rgb(121, 121, 121);
 }
 
 .espform{
     padding: 0.5rem;
 }
 
-.formulario2 img{
-    height: 34.3rem;
-    width: 30rem;
-    opacity: 50%;
-    box-shadow: 0px 10px 10px 0px rgb(121, 121, 121);
+.espform a{
+    font-size: 18px;
 }
 
-#termo{
-    font-size: 0.7rem;
-    color: rgb(156, 156, 156);
+.espformwel, .espformbtn, .espformend{
+    width: 18rem;
+    text-align: center;
 }
 
-#cadastrese{        
-    cursor: pointer;
-    background-color: rgb(168, 168, 168);
-    border-radius: 1rem;
-    border-color: white;
+.espformend{
+    height: 4rem;
+    margin-top: 2rem;
 }
 
-#cadastrese:hover{
+.espformend img{
+    width: 1.5rem;
+    padding: 1rem;
+}
+
+#btnlogin{        
     background-color: black;
+    border-color: white;
     color: white;
+    font-size: 18px;
+    margin: 1rem;
 }
 
+#btnlogin, .espformend img{
+    cursor: pointer;
+}
+
+#btnlogin:hover{
+    background-color: rgb(168, 168, 168);
+    color: black;
+}
