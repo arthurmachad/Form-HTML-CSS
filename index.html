@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Projeto</title>
 </head>
 
@@ -12,43 +12,45 @@
 
     <main>
         
-        <div class="formulario2">
-            <img src="abastrato.png" alt="">
+        <div class="imgform">
+            <img src="/img/fundo.jpg" alt="">
         </div>
         <div class="formulario">
             
             <form autocomplete="on">    
 
-                <div>
-                    <h1>Crie sua conta</h1> 
+                <div class="espformwel">
+                    <h2>Login</h2>            
                 </div>
 
                 <fieldset>
-                    <div class="espform">
-                        <label for="nome">Nome</label><br>
-                        <input type="name" id="nome" autofocus required>              
-                    </div>
 
                     <div class="espform">
                         <label for="email">E-mail</label><br>
-                        <input type="text" id="email" required>         
+                        <input type="text" placeholder="Digite o e-mail" id="email" required autofocus>         
                     </div>
 
                     <div class="espform">
                         <label for="senha">Senha</label><br>
-                        <input type="password" id="senha" required>         
+                        <input type="password" placeholder="Digite a senha" id="senha" required>         
                     </div>
 
                     <div class="espform">
-                        <label for="confsenha">Confirmar Senha</label><br>
-                        <input type="password" id="confsenha" required>
+                        <a href="">Esqueci minha senha</a>
                     </div>
                     
-                    <div>
-                        <label for="" id="termo">Ao clicar em Cadastre-se, você concorda com nossos Termos, <a href=""> Política de Dados e Política de Cookies</a>. Você poderá receber notificações por SMS  e cancelar isso quando quiser.</label><br>
-                        <input type="submit" value="Cadastre-se" id="cadastrese"><br>
+                    <div class="espformbtn">
+                        <input type="submit" value="Entrar" id="btnlogin"><br>
                     </div>    
 
+                    <div class="espformend">
+                        <p>Não tem conta? <a href="">Inscreva-se</a></p>
+                        <p>ou</p>
+                        <img src="/img/facebook.png" alt="">
+                        <img src="/img/google.png" alt="">
+                        <img src="/img/instagram.png" alt="">
+                    </div>
+                    
                 </fieldset>
 
             </form>
